@@ -36,7 +36,7 @@ Return<void> VHalService::get(
   }
 
   // Unimplemented
-  // NOTE; a VHAL implementation must allow modification of non-readable vehicle properties.
+  // NOTE: a VHAL implementation must allow access to non-readable vehicle properties.
   return Void();
 }
 
